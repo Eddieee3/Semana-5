@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AC1695F4-0B13-42CE-A2EE-4ADBEC308D11}</ProjectGuid>
+    <ProjectGuid>{F9EB3994-D8B4-4B00-ADDF-6DCCFDE48340}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Productos</RootNamespace>
-    <AssemblyName>Productos</AssemblyName>
+    <RootNamespace>Login</RootNamespace>
+    <AssemblyName>Login</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -52,22 +52,10 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="FRMPrincipal.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FRMPrincipal.Designer.cs">
-      <DependentUpon>FRMPrincipal.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Modelos\Producto.cs" />
-    <Compile Include="Modelos\ProductoDao.cs" />
-    <Compile Include="Modelos\UsuarioDao.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FRMPrincipal.resx">
-      <DependentUpon>FRMPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
