@@ -12,7 +12,7 @@ namespace Productos.Modelos
             {"engels", "dominik", "oscar"};
         public String[] pws =
         {
-            "123", "147", "159"
+            "123", "147", "159";
             public Boolean Validar(String user, String pw)
         {
             for(int i = 0; i < users.Length; i++)
